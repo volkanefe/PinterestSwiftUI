@@ -1,0 +1,361 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CA050AA52BB5F4BA001018E2 /* PinterestSwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA050AA42BB5F4BA001018E2 /* PinterestSwiftUIApp.swift */; };
+		CA050AA72BB5F4BA001018E2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA050AA62BB5F4BA001018E2 /* ContentView.swift */; };
+		CA050AA92BB5F4BD001018E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA050AA82BB5F4BD001018E2 /* Assets.xcassets */; };
+		CA050AAC2BB5F4BD001018E2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA050AAB2BB5F4BD001018E2 /* Preview Assets.xcassets */; };
+		CA050AB52BB5F51C001018E2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA050AB42BB5F51C001018E2 /* Home.swift */; };
+		CA050AB72BB5F79E001018E2 /* BlurWindow.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA050AB62BB5F79E001018E2 /* BlurWindow.swift */; };
+		CA050AB92BB5FE70001018E2 /* TabButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA050AB82BB5FE70001018E2 /* TabButton.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		CA050AA12BB5F4BA001018E2 /* PinterestSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PinterestSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CA050AA42BB5F4BA001018E2 /* PinterestSwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PinterestSwiftUIApp.swift; sourceTree = "<group>"; };
+		CA050AA62BB5F4BA001018E2 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		CA050AA82BB5F4BD001018E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CA050AAB2BB5F4BD001018E2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		CA050AAD2BB5F4BD001018E2 /* PinterestSwiftUI.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = PinterestSwiftUI.entitlements; sourceTree = "<group>"; };
+		CA050AB42BB5F51C001018E2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		CA050AB62BB5F79E001018E2 /* BlurWindow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BlurWindow.swift; sourceTree = "<group>"; };
+		CA050AB82BB5FE70001018E2 /* TabButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabButton.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CA050A9E2BB5F4BA001018E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CA050A982BB5F4BA001018E2 = {
+			isa = PBXGroup;
+			children = (
+				CA050AA32BB5F4BA001018E2 /* PinterestSwiftUI */,
+				CA050AA22BB5F4BA001018E2 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CA050AA22BB5F4BA001018E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CA050AA12BB5F4BA001018E2 /* PinterestSwiftUI.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CA050AA32BB5F4BA001018E2 /* PinterestSwiftUI */ = {
+			isa = PBXGroup;
+			children = (
+				CA050AB32BB5F509001018E2 /* View */,
+				CA050AA42BB5F4BA001018E2 /* PinterestSwiftUIApp.swift */,
+				CA050AA62BB5F4BA001018E2 /* ContentView.swift */,
+				CA050AA82BB5F4BD001018E2 /* Assets.xcassets */,
+				CA050AAD2BB5F4BD001018E2 /* PinterestSwiftUI.entitlements */,
+				CA050AAA2BB5F4BD001018E2 /* Preview Content */,
+			);
+			path = PinterestSwiftUI;
+			sourceTree = "<group>";
+		};
+		CA050AAA2BB5F4BD001018E2 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				CA050AAB2BB5F4BD001018E2 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		CA050AB32BB5F509001018E2 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CA050AB42BB5F51C001018E2 /* Home.swift */,
+				CA050AB62BB5F79E001018E2 /* BlurWindow.swift */,
+				CA050AB82BB5FE70001018E2 /* TabButton.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CA050AA02BB5F4BA001018E2 /* PinterestSwiftUI */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CA050AB02BB5F4BD001018E2 /* Build configuration list for PBXNativeTarget "PinterestSwiftUI" */;
+			buildPhases = (
+				CA050A9D2BB5F4BA001018E2 /* Sources */,
+				CA050A9E2BB5F4BA001018E2 /* Frameworks */,
+				CA050A9F2BB5F4BA001018E2 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PinterestSwiftUI;
+			productName = PinterestSwiftUI;
+			productReference = CA050AA12BB5F4BA001018E2 /* PinterestSwiftUI.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CA050A992BB5F4BA001018E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					CA050AA02BB5F4BA001018E2 = {
+						CreatedOnToolsVersion = 14.2;
+					};
+				};
+			};
+			buildConfigurationList = CA050A9C2BB5F4BA001018E2 /* Build configuration list for PBXProject "PinterestSwiftUI" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CA050A982BB5F4BA001018E2;
+			productRefGroup = CA050AA22BB5F4BA001018E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CA050AA02BB5F4BA001018E2 /* PinterestSwiftUI */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CA050A9F2BB5F4BA001018E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA050AAC2BB5F4BD001018E2 /* Preview Assets.xcassets in Resources */,
+				CA050AA92BB5F4BD001018E2 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CA050A9D2BB5F4BA001018E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CA050AB72BB5F79E001018E2 /* BlurWindow.swift in Sources */,
+				CA050AA72BB5F4BA001018E2 /* ContentView.swift in Sources */,
+				CA050AB52BB5F51C001018E2 /* Home.swift in Sources */,
+				CA050AB92BB5FE70001018E2 /* TabButton.swift in Sources */,
+				CA050AA52BB5F4BA001018E2 /* PinterestSwiftUIApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		CA050AAE2BB5F4BD001018E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		CA050AAF2BB5F4BD001018E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		CA050AB12BB5F4BD001018E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinterestSwiftUI/PinterestSwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinterestSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = B7Z74R6MTN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volkanefe.PinterestSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		CA050AB22BB5F4BD001018E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = PinterestSwiftUI/PinterestSwiftUI.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"PinterestSwiftUI/Preview Content\"";
+				DEVELOPMENT_TEAM = B7Z74R6MTN;
+				ENABLE_HARDENED_RUNTIME = YES;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.volkanefe.PinterestSwiftUI;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CA050A9C2BB5F4BA001018E2 /* Build configuration list for PBXProject "PinterestSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA050AAE2BB5F4BD001018E2 /* Debug */,
+				CA050AAF2BB5F4BD001018E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CA050AB02BB5F4BD001018E2 /* Build configuration list for PBXNativeTarget "PinterestSwiftUI" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CA050AB12BB5F4BD001018E2 /* Debug */,
+				CA050AB22BB5F4BD001018E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CA050A992BB5F4BA001018E2 /* Project object */;
+}
